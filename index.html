@@ -34,7 +34,6 @@
             overflow-x: hidden;
         }
 
-        /* Loading Screen */
         .loading-screen {
             position: fixed;
             top: 0;
@@ -95,7 +94,6 @@
             padding: 0 2rem;
         }
 
-        /* Header Styles */
         header {
             background-color: rgba(15, 23, 42, 0.9);
             backdrop-filter: blur(10px);
@@ -213,7 +211,6 @@
             border: 1px solid transparent;
         }
 
-        /* Hero Section */
         .hero {
             padding: 8rem 0 4rem;
             text-align: center;
@@ -311,14 +308,13 @@
             margin-right: 0.5rem;
         }
 
-        /* Skills Section */
 .section-title {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 2rem;
     text-align: center;
     position: relative;
-    display: block; /* hoặc inline-block cũng được */
+    display: block;
 }
 
 .section-title::after {
@@ -391,8 +387,7 @@
             font-size: 0.8rem;
             color: var(--gray);
         }
-
-        /* Projects Section */
+        
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -535,7 +530,6 @@
             color: var(--primary);
         }
 
-        /* Experience Section */
         .timeline {
             position: relative;
             max-width: 800px;
@@ -631,8 +625,7 @@
             gap: 0.5rem;
             justify-content: center;
         }
-
-        /* Contact Section */
+        
         .contact-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -733,7 +726,6 @@
             resize: vertical;
         }
 
-        /* Footer */
         footer {
             text-align: center;
             padding: 2rem 0;
@@ -742,7 +734,6 @@
             font-size: 0.9rem;
         }
 
-        /* Responsive Design */
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 2.5rem;
@@ -827,15 +818,13 @@
     </style>
 </head>
 <body>
-    <!-- Loading Screen -->
     <div class="loading-screen" id="loadingScreen">
         <div class="loading-content">
             <div class="loading-spinner"></div>
             <div class="loading-text">Ontop The Dev</div>
         </div>
     </div>
-
-    <!-- Header -->
+    
     <header>
         <div class="container">
             <nav class="navbar">
@@ -851,7 +840,6 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
             <h1>Hi, I'm Minh(Ontop)</h1>
@@ -859,7 +847,6 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
     <section id="skills" class="container">
         <h2 class="section-title">My Skills</h2>
         <p style="text-align: center; margin-bottom: 2rem; color: var(--gray);">
@@ -940,7 +927,6 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
     <section id="projects" class="container">
         <h2 class="section-title">Featured Projects</h2>
         <div class="projects-grid">
@@ -1104,7 +1090,6 @@
         </div>
     </section>
 
-    <!-- Experience Section -->
     <section id="experience" class="container">
         <h2 class="section-title">Work Experience</h2>
         <div class="timeline">
@@ -1198,7 +1183,6 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact" class="container">
         <h2 class="section-title">Get In Touch</h2>
         <div class="contact-container">
@@ -1244,7 +1228,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="container">
         <p>© 2025 Ontop The Dev. All rights reserved.</p>
     </footer>
